@@ -1,102 +1,68 @@
----
+﻿---
 permalink: /
 title: ""
 excerpt: ""
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
-<span class='anchor' id='about-me'></span>
-
-🙋 I am Yijin Zhou (周艺晋), currently a second-year Ph.D. student at [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/) and [Shanghai Innovation Institute](https://www.sii.edu.cn/), supervised by Professor [Junchi Yan](https://www.sii.edu.cn/2025/1001/c82a538/page.htm) and Research Scientist [Jing Shao](https://amandajshao.github.io/). I received my bachelor's degree from [Zhiyuan College](https://zhiyuan.sjtu.edu.cn/html/zhiyuan/), Shanghai Jiao Tong University, in 2024.
-
-🔍 My research interests lie in AI agents, post-training, and trustworthiness. Outside of research, I enjoy 🏸badminton and 🏋️fitness.
-
-💻 I am currently seeking industrial research/engineering internships related to agentic post-training. Always open to ☕️coffee chats, 💬scientific discussions, and 🤝potential collaborations—feel free to drop me an email!
-
 <style>
-.news-box {
-  max-height: 260px;
-  overflow-y: auto;
-  padding: 12px 18px;
-  border: 1px solid #e5e7eb;
-  border-radius: 8px;
-  background: #fff;
-}
-
-.news-box ul {
-  margin-bottom: 0;
-}
+:root { --ink:#172033; --muted:#607087; --accent:#1967d2; --soft:#f5f8fc; }
+.hero { padding: 2rem 2.2rem 1.8rem; border-radius: 18px; background: linear-gradient(135deg,#f3f7ff 0%,#f9fbff 55%,#eef7f5 100%); border:1px solid #e4ebf5; margin-bottom:2rem; }
+.hero h1 { margin:0 0 .6rem; color:var(--ink); font-size:2.1rem; letter-spacing:-.02em; }
+.hero .tagline { color:var(--accent); font-size:1.1rem; font-weight:600; margin:.2rem 0 1rem; }
+.hero p { max-width: 760px; color:var(--muted); font-size:1.03rem; line-height:1.75; }
+.pills { display:flex; flex-wrap:wrap; gap:.55rem; margin-top:1.2rem; }
+.pill { background:#fff; color:#31506f; border:1px solid #dce6f2; padding:.34rem .7rem; border-radius:999px; font-size:.86rem; }
+.section-kicker { color:var(--accent); text-transform:uppercase; letter-spacing:.12em; font-size:.75rem; font-weight:700; margin-bottom:.3rem; }
+.pub-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(285px,1fr)); gap:1rem; margin:1rem 0 2rem; }
+.pub-card { padding:1.1rem 1.15rem; border:1px solid #e5eaf1; border-radius:12px; background:#fff; box-shadow:0 3px 12px rgba(40,60,90,.05); }
+.pub-card h3 { font-size:1rem; line-height:1.4; margin:.2rem 0 .5rem; }
+.pub-card p { color:var(--muted); font-size:.9rem; line-height:1.55; margin:.3rem 0; }
+.pub-meta { color:var(--accent)!important; font-size:.8rem!important; font-weight:700; }
+.pub-card a { color:var(--accent); font-weight:600; }
+.timeline { border-left:2px solid #dce6f2; padding-left:1.2rem; margin:1rem 0 2rem; }
+.timeline p { margin:.8rem 0; color:var(--muted); }
+.timeline strong { color:var(--ink); }
+.cta { background:var(--soft); border-radius:12px; padding:1rem 1.2rem; margin-top:1.8rem; }
+@media (max-width:650px) { .hero { padding:1.3rem; } .hero h1 { font-size:1.65rem; } }
 </style>
 
-# 🔥 News
-
-<div class="news-box" markdown="1">
-
-- *2026.08*: &nbsp;🎉🎉 Two papers are accepted by EMNLP 2026🇭🇺!
-- *2026.06*: &nbsp;🎉🎉 One paper is accepted by ECCV 2026🇸🇪!
-- *2026.05*: &nbsp;🎉🎉 One paper is accepted by ICML 2026🇰🇷!
-- *2026.04*: &nbsp;🎉🎉 One paper is accepted by RSS 2026🇦🇺!
-- *2026.03*: &nbsp;🎉🎉 One paper is accepted by CVPR 2026 Findings🏸!
-- *2026.03*: &nbsp;🎉🎉 One paper is accepted by CVPR 2026!
-- *2025.11*: &nbsp;🎉🎉 One paper is accepted by AAAI 2026!
-- *2025.09*: &nbsp;🎉🎉 Start my journey at Shanghai Innovation Institute!
-- *2025.07*: &nbsp;🎉🎉 Start a period of algorithm internship at Shanghai AI Lab!
-- *2024.12*: &nbsp;🎉🎉 One paper is accepted by Medical Image Analysis (IF 10.9)!
-- *2024.07*: &nbsp;🎉🎉 Start a period of algorithm internship at Alibaba!
-- *2024.06*: &nbsp;🎉🎉 Graduated and won Outstanding Undergraduate Thesis (Top 1%) and Outstanding Student of SJTU!
-- *2024.02*: &nbsp;🎉🎉 One paper is accepted by ICML 2024 FM-Wild Workshop!
-- *2023.10*: &nbsp;🎉🎉 One paper is accepted by Medical Image Analysis (IF 10.9)!
-
+<div class="hero">
+  <div class="section-kicker">Embodied intelligence · Robotics · Learning agents</div>
+  <h1>Wenyuan Xie <span style="font-weight:400;color:#607087">谢文远</span></h1>
+  <div class="tagline">Building agents that can perceive, reason, and act in the physical world.</div>
+  <p>I am a PhD student at <a href="https://www.sjtu.edu.cn/">Shanghai Jiao Tong University</a> and <a href="https://www.sii.edu.cn/">Shanghai Innovation Institute</a>. My work studies vision-language-action models, embodied navigation, robot manipulation, and post-training methods that make intelligent agents more reliable.</p>
+  <p>I earned my bachelor's degree from Shanghai Jiao Tong University (Zhiyuan College) in 2024. I enjoy badminton, fitness, and thoughtful conversations about robots and learning.</p>
+  <div class="pills"><span class="pill">VLA &amp; VLN</span><span class="pill">Robot manipulation</span><span class="pill">Reinforcement learning</span><span class="pill">3D perception</span><span class="pill">Agentic post-training</span></div>
 </div>
 
-# 📝 Publications 
+<div class="section-kicker">Selected work</div>
+<h2 id="publications">Publications &amp; projects</h2>
+<p>My research connects structured geometric representations with learning-based agents, so they can adapt from experience and execute long-horizon tasks robustly.</p>
+<div class="pub-grid">
+  <article class="pub-card"><p class="pub-meta">RSS 2026 · First author</p><h3>MVP-Nav: Multi-layer Value Map Planner Navigator</h3><p>A multi-layer value-map planner that combines VGGT, Grounded-SAM and vision-language models for robust 3D navigation.</p><p><a href="https://arxiv.org/">Paper</a> · <a href="https://github.com/">Code</a></p></article>
+  <article class="pub-card"><p class="pub-meta">ICRA 2027 · Under review · Co-first author</p><h3>Navi-Agent: Unlocalized Monocular Navigation Agent</h3><p>A coordinate-free visual anchor graph for place recognition, progress verification, and recovery in continuous environments.</p><p><a href="https://arxiv.org/abs/2609.20388">Paper</a></p></article>
+  <article class="pub-card"><p class="pub-meta">ECCV 2026</p><h3>RelAfford6D: Relational 6D Affordance Graphs</h3><p>Language-grounded relational affordances become kinematic constraints and closed-loop SE(3) trajectories for articulated-object manipulation.</p><p><a href="https://arxiv.org/">Paper</a></p></article>
+  <article class="pub-card"><p class="pub-meta">CVPR 2026</p><h3>Dejavu: Towards Experience Feedback Learning</h3><p>An experience feedback network augments a frozen VLA policy with retrieved trajectories, enabling post-deployment learning without rewriting the base model.</p><p><a href="https://arxiv.org/">Paper</a></p></article>
+  <article class="pub-card"><p class="pub-meta">ICML 2026</p><h3>Recovering Hidden Reward in Diffusion-Based Policies</h3><p>Learning reward signals hidden inside diffusion-policy behavior to improve reliable action generation.</p><p><a href="https://arxiv.org/">Paper</a></p></article>
+  <article class="pub-card"><p class="pub-meta">EMNLP 2026 · Co-author</p><h3>TRUST: Uncertainty-Aligned Tool-Calling Decisions</h3><p>Reinforcement learning with uncertainty-aware rewards for more reliable decisions in multi-turn agent tool use.</p><p><a href="https://arxiv.org/abs/2606.06976">Paper</a> · <a href="https://github.com/yjzscode/TRUST">Code</a></p></article>
+</div>
 
-## (M)LLM Post-Training
-- `EMNLP 2026` [Exploring Agentic Tool-Calling Decisions via Uncertainty-Aligned Reinforcement Learning](https://arxiv.org/pdf/2606.06976), **Yijin Zhou**, Linqian Zeng, Xiaoya Lu, Wenyuan Xie, Dongrui Liu, Junchi Yan, Jing Shao. [Github](https://github.com/yjzscode/TRUST)
-- `ICML 2026` [How Out-of-Distribution Detection Learning Theory Enhances Transformer: Learnability and Reliability](https://arxiv.org/pdf/2406.12915), **Yijin Zhou**, Yutang Ge, Wenyuan Xie, Linqian Zeng, Xiaowen Dong, Yuguang Wang. [Github](https://github.com/yjzscode/GROD-OOD-Detection-with-Transformers)
-- `ECCV 2026` [HomeGuard: VLM-based Embodied Safeguard for Identifying Contextual Risk in Household Task](https://arxiv.org/pdf/2603.14367), Xiaoya Lu\*, **Yijin Zhou\***, Zeren Chen, Ruocheng Wang, Bingrui Sima, Enshen Zhou, Lu Sheng, Dongrui Liu, Jing Shao. [Github](https://github.com/AI45Lab/HomeGuard)
-- `ICML 2024 Workshop` [GROD: Enhancing Generalization of Transformer with Out-of-Distribution Detection](https://openreview.net/pdf?id=rh7qlZdUt5), **Yijin Zhou**, Yuguang Wang.
+<div class="section-kicker">Experience</div>
+<h2 id="experience">Education &amp; experience</h2>
+<div class="timeline">
+  <p><strong>2024.09 – present</strong> · PhD student, Shanghai Jiao Tong University</p>
+  <p><strong>2024.09 – present</strong> · PhD student, Shanghai Innovation Institute</p>
+  <p><strong>2026.03 – 2026.07</strong> · Research intern, Shanghai Artificial Intelligence Laboratory — reinforcement learning and whole-body control for humanoid robots</p>
+  <p><strong>2024.06 – 2024.09</strong> · Research intern, Alibaba — visual navigation with ViNT and NoMaD</p>
+  <p><strong>2020.09 – 2024.06</strong> · B.Eng., Shanghai Jiao Tong University</p>
+</div>
 
-## (M)LLM Agent
-- `Arxiv` [MAPLE-Guard: Memory-Aware Link Enforcement Against Memory-Link Poisoning in Multi-Agent Systems](https://arxiv.org/pdf/2608.00426), Wenjun Xiong\*,  **Yijin Zhou\***, Jiaqian Wang, Shangding Gu, Bo Tang, Zhiyu Li, Feiyu Xiong, Ying Wen, Muning Wen. [Github](https://github.com/xiong-wenjun/MAPLE-Guard)
-- `EMNLP 2026` [INFA-Guard: Mitigating Malicious Propagation via Infection-Aware Safeguarding in LLM-Based Multi-Agent Systems](https://arxiv.org/pdf/2601.14667), **Yijin Zhou\***, Xiaoya Lu\*, Dongrui Liu, Junchi Yan, Jing Shao. [Github](https://github.com/yjzscode/INFA-Guard)
-- `CVPR 2026` [Geometrically-Constrained Agent for Spatial Reasoning](https://arxiv.org/pdf/2511.22659), Zeren Chen\*, Xiaoya Lu\*, Zhijie Zheng, Pengrui Li, Lehan He, **Yijin Zhou**, Jing Shao, Bohan Zhuang, Lu Sheng. [Github](https://github.com/gca-spatial-reasoning/gca) [Page](https://gca-spatial-reasoning.github.io/)
-- `AAAI 2026` [IS-Bench: Evaluating Interactive Safety of VLM-Driven Embodied Agents in Daily Household Tasks](https://arxiv.org/pdf/2506.16402), Xiaoya Lu\*, Zeren Chen\*, Xuhao Hu\*, **Yijin Zhou**, Weichen Zhang, Dongrui Liu, Lu Sheng, Jing Shao. [Github](https://github.com/AI45Lab/IS-Bench) [Dataset](https://huggingface.co/datasets/Ursulalala/IS_Bench_dataset)
-
-
-## Others
-- `CVPR 2026 Findings` [Jano: Adaptive Diffusion Generation with Early-stage Convergence Awareness](https://arxiv.org/pdf/2603.00519), Yuyang Chen\*, Linqian Zeng\*, **Yijin Zhou**, Hengjie Li, Jidong Zhai. [Github](https://github.com/chen-yy20/Jano)
-- `Arxiv` [DeepSight: An All-in-One LM Safety Toolkit](https://arxiv.org/pdf/2602.12092), Bo Zhang, Jiaxuan Guo, Lijun Li, Dongrui Liu, Sujin Chen, Guanxu Chen, Zhijie Zheng, Qihao Lin, Lewen Yan, Chen Qian, **Yijin Zhou**, Yuyao Wu, Shaoxiong Guo, Tianyi Du, Jingyi Yang, Xuhao Hu, Ziqi Miao, Xiaoya Lu, Jing Shao, Xia Hu. [DeepSafe](https://github.com/AI45Lab/DeepSafe) [DeepScan](https://github.com/AI45Lab/DeepScan)
-- `Arxiv` [Frontier AI Risk Management Framework in Practice: A Risk Analysis Technical Report v1. 5](https://arxiv.org/pdf/2602.14457), Dongrui Liu, Yi Yu, Jie Zhang, Guanxu Chen, Qihao Lin, Hanxi Zhu, Lige Huang, **Yijin Zhou**, Peng Wang, Shuai Shao, Boxuan Zhang, Zicheng Liu, Jingwei Sun, Yu Li, Yuejin Xie, Jiaxuan Guo, Jia Xu, Chaochao Lu, Bowen Zhou, Xia Hu, Jing Shao.
-- `Chapter in Book "Deep Learning in Drug Design"` [Generative models for drug design](https://www.sciencedirect.com/science/chapter/edited-volume/pii/B9780443329081000155), **Yijin Zhou**, Yuguang Wang.
-- `Medical Image Analysis` [Learnable color space conversion and fusion for stain normalization in pathology images](https://www.sciencedirect.com/science/article/pii/S1361841524003499), Jing Ke, **Yijin Zhou**（学生一作）, Yiqing Shen, Yi Guo, Ning Liu, Xiaodan Han, Dinggang Shen. [Github](https://github.com/yjzscode/Optimal-Normalisation-in-Color-Spaces)
-- `Medical Image Analysis` [Clusterseg: A crowd cluster pinpointed nucleus segmentation framework with cross-modality datasets](https://www.sciencedirect.com/science/article/pii/S1361841523000191), Jing Ke, Yizhou Lu, Yiqing Shen, Junchao Zhu, **Yijin Zhou**, Jinghan Huang, Jieteng Yao, Xiaoyao Liang, Yi Guo, Zhonghua Wei, Sheng Liu, Qin Huang, Fusong Jiang, Dinggang Shen. [Github](https://github.com/lu-yizhou/ClusterSeg)
-
-# 🎖 Honors and Awards
-- Excellent Bachelor’s Thesis (Top 1%), Shanghai Jiao Tong University
-- “Chun-Tsung Scholar” Honorary Title, conferred by Nobel Laureate Tsung-Dao Lee
-- Outstanding Graduate, Shanghai Jiao Tong University
-- Meritorious Student, Shanghai Jiao Tong University
-- Zhiyuan Honor Scholarship (3 times)
-- Undergraduate Excellence Scholarship (3 times)
-
-# 📖 Educations
-- *2025.09 - Now*, Phd Student, Shanghai Innovation Institute, Shanghai.
-- *2024.09 - Now*, Phd Student, Shanghai Jiao Tong University, Shanghai.
-- *2020.09 - 2024.06*, Undergraduate, Shanghai Jiao Tong University, Shanghai.
-
-
-# 💻 Internships
-- *2025.07 - 2026.07*, AI Algorithm Intern, Shanghai Artificial Intelligence Laboratory
-- *2024.06 - 2024.08*, AI Algorithm Intern, Alibaba Cloud Computing Co., Ltd.
-
+<div class="section-kicker">A few more things</div>
+<h2 id="honors">Honors &amp; skills</h2>
+<p>Outstanding Undergraduate Thesis (Top 1%) · Outstanding Student of SJTU · Chun-Tsung Scholar · Zhiyuan Honor Scholarship</p>
+<p><strong>Tools:</strong> Python, PyTorch, JAX, C++, Java, MATLAB · <strong>Topics:</strong> VLA, VLN, agents, world models, reinforcement learning</p>
+<div class="cta"><strong>Let's connect.</strong> I am open to research collaborations and robotics opportunities. Reach me at <a href="mailto:wenyuan.xie2002@gmail.com">wenyuan.xie2002@gmail.com</a> or <a href="/files/Wenyuan_Xie_CV.pdf">download my CV</a>.</div>
