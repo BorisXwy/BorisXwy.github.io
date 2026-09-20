@@ -34,7 +34,7 @@ redirect_from:
   <div class="section-kicker">Embodied intelligence · Robotics · Learning agents</div>
   <h1>Wenyuan Xie <span style="font-weight:400;color:#607087">谢文远</span></h1>
   <div class="tagline">Building agents that can perceive, reason, and act in the physical world.</div>
-  <p>I am a PhD student at <a href="https://www.sjtu.edu.cn/">Shanghai Jiao Tong University</a> and <a href="https://www.sii.edu.cn/">Shanghai Innovation Institute</a>. My work studies vision-language-action models, embodied navigation, robot manipulation, and post-training methods that make intelligent agents more reliable.</p>
+  <p>I work at <a href="https://www.sjtu.edu.cn/">Shanghai Jiao Tong University</a>. My research studies vision-language-action models, embodied navigation, robot manipulation, and post-training methods that make intelligent agents more reliable.</p>
   <p>I earned my bachelor's degree from Shanghai Jiao Tong University (Zhiyuan College) in 2024. I enjoy badminton, fitness, and thoughtful conversations about robots and learning.</p>
   <div class="pills"><span class="pill">VLA &amp; VLN</span><span class="pill">Robot manipulation</span><span class="pill">Reinforcement learning</span><span class="pill">3D perception</span><span class="pill">Agentic post-training</span></div>
 </div>
@@ -54,8 +54,7 @@ redirect_from:
 <div class="section-kicker">Experience</div>
 <h2 id="experience">Education &amp; experience</h2>
 <div class="timeline">
-  <p><strong>2024.09 – present</strong> · PhD student, Shanghai Jiao Tong University</p>
-  <p><strong>2024.09 – present</strong> · PhD student, Shanghai Innovation Institute</p>
+  <p><strong>2024.09 – present</strong> · Research in robotics and embodied AI, Shanghai Jiao Tong University</p>
   <p><strong>2026.03 – 2026.07</strong> · Research intern, Shanghai Artificial Intelligence Laboratory — reinforcement learning and whole-body control for humanoid robots</p>
   <p><strong>2024.06 – 2024.09</strong> · Research intern, Alibaba — visual navigation with ViNT and NoMaD</p>
   <p><strong>2020.09 – 2024.06</strong> · B.Eng., Shanghai Jiao Tong University</p>
@@ -66,3 +65,5 @@ redirect_from:
 <p>Outstanding Undergraduate Thesis (Top 1%) · Outstanding Student of SJTU · Chun-Tsung Scholar · Zhiyuan Honor Scholarship</p>
 <p><strong>Tools:</strong> Python, PyTorch, JAX, C++, Java, MATLAB · <strong>Topics:</strong> VLA, VLN, agents, world models, reinforcement learning</p>
 <div class="cta"><strong>Let's connect.</strong> I am open to research collaborations and robotics opportunities. Reach me at <a href="mailto:wenyuan.xie2002@gmail.com">wenyuan.xie2002@gmail.com</a> or <a href="/files/Wenyuan_Xie_CV.pdf">download my CV</a>.</div>
+
+

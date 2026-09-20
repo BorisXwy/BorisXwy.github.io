@@ -1,5 +1,5 @@
 ﻿title                    : "Wenyuan Xie | Robotics & Embodied AI"
-description              : "Wenyuan Xie — PhD student working on embodied intelligence, vision-language-action models, navigation, and robot manipulation."
+description              : "Wenyuan Xie — working on embodied intelligence, vision-language-action models, navigation, and robot manipulation."
 repository               : "BorisXwy/BorisXwy.github.io"
 google_scholar_stats_use_cdn : false
 
@@ -8,12 +8,12 @@ google_analytics_id      :
 author:
   name             : "Wenyuan Xie (谢文远)"
   avatar           : "images/wenyuan-xie.png"
-  bio              : "PhD student · Embodied AI & Robotics"
+  bio              : "Embodied AI & Robotics"
   location         : "Shanghai, China"
-  employer         : "Shanghai Jiao Tong University · Shanghai Innovation Institute"
+  employer         : "Shanghai Jiao Tong University"
   googlescholar    :
   email            : "wenyuan.xie2002@gmail.com"
-  github           : "xwy20"
+  github           : "BorisXwy"
   linkedin         :
   twitter          :
   dblp             :
@@ -83,4 +83,3 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-
