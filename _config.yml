@@ -1,6 +1,6 @@
 ﻿title                    : "Wenyuan Xie | Robotics & Embodied AI"
 description              : "Wenyuan Xie — PhD student working on embodied intelligence, vision-language-action models, navigation, and robot manipulation."
-repository               : "xwy20/wenyuan-xie.github.io"
+repository               : "BorisXwy/BorisXwy.github.io"
 google_scholar_stats_use_cdn : false
 
 google_analytics_id      :
@@ -83,3 +83,4 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
