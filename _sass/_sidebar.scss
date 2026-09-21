@@ -175,6 +175,12 @@
   }
 }
 
+.author__urls li {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+
 .author__urls {
   display: none;
   position: absolute;

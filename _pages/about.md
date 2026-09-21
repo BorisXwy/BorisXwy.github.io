@@ -62,8 +62,7 @@ redirect_from:
 </div>
 
 <div class="section-kicker">A few more things</div>
-<h2 id="honors">Honors &amp; skills</h2>
-<p>Outstanding Undergraduate Thesis (Top 1%) · Outstanding Student of SJTU · Chun-Tsung Scholar · Zhiyuan Honor Scholarship</p>
+<h2 id="skills">Skills</h2>
 <p><strong>Tools:</strong> Python, PyTorch, JAX, C++, Java, MATLAB · <strong>Topics:</strong> VLA, VLN, agents, world models, reinforcement learning</p>
 <div class="cta"><strong>Let's connect.</strong> I am open to research collaborations and robotics opportunities. Reach me at <a href="mailto:wenyuan.xie2002@gmail.com">wenyuan.xie2002@gmail.com</a> or <a href="/files/Wenyuan_Xie_CV.pdf">download my CV</a>.</div>
 

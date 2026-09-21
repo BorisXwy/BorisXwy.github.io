@@ -1,4 +1,4 @@
-﻿# Main navigation
+# Main navigation
 main:
   - title: "About"
     url: "/#about-me"
@@ -6,5 +6,5 @@ main:
     url: "/#publications"
   - title: "Experience"
     url: "/#experience"
-  - title: "Honors & skills"
-    url: "/#honors"
+  - title: "Skills"
+    url: "/#skills"
