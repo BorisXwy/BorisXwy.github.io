@@ -10,8 +10,7 @@ author_profile: true
 <style>
 :root { --ink:#172033; --muted:#607087; --accent:#1967d2; --soft:#f5f8fc; }
 .lang-switch { text-align:right; margin:0 0 1rem; font-size:.9rem; }
-.lang-switch a, .lang-switch button { color:var(--accent); font-weight:600; text-decoration:none; }
-.lang-switch button { border:0; background:transparent; padding:0; cursor:pointer; font:inherit; }
+.lang-switch button { border:0; background:transparent; color:var(--accent); font-weight:600; padding:0; cursor:pointer; font:inherit; }
 .hero { padding: 2rem 2.2rem 1.8rem; border-radius: 18px; background: linear-gradient(135deg,#f3f7ff 0%,#f9fbff 55%,#eef7f5 100%); border:1px solid #e4ebf5; margin-bottom:2rem; }
 .hero h1 { margin:0 0 .6rem; color:var(--ink); font-size:2.1rem; letter-spacing:-.02em; }
 .hero .tagline { color:var(--accent); font-size:1.1rem; font-weight:600; margin:.2rem 0 1rem; }
@@ -31,9 +30,10 @@ author_profile: true
 .cta { background:var(--soft); border-radius:12px; padding:1rem 1.2rem; margin-top:1.8rem; }
 @media (max-width:650px) { .hero { padding:1.3rem; } .hero h1 { font-size:1.65rem; } }
 </style>
-<div class="lang-switch" role="navigation" aria-label="Language"><button type="button" onclick="setLang('en')">EN</button><span>|</span><button type="button" onclick="setLang('zh')">&#20013;&#25991;</button></div>
+<div class="lang-switch" role="navigation" aria-label="Language"><button type="button" onclick="setLang('en', event)" aria-label="English">EN</button><span>|</span><button type="button" onclick="setLang('zh', event)" aria-label="Chinese">&#20013;&#25991;</button></div>
 <script>
-function setLang(lang) {
+function setLang(lang, event) {
+  if (event) { event.preventDefault(); event.stopPropagation(); }
   document.getElementById('lang-en').hidden = lang !== 'en';
   document.getElementById('lang-zh').hidden = lang !== 'zh';
   document.documentElement.lang = lang === 'zh' ? 'zh' : 'en';
