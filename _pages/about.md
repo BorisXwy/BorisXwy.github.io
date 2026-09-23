@@ -10,6 +10,8 @@ redirect_from:
 
 <style>
 :root { --ink:#172033; --muted:#607087; --accent:#1967d2; --soft:#f5f8fc; }
+.lang-switch { text-align:right; margin:0 0 1rem; font-size:.9rem; }
+.lang-switch a { color:var(--accent); font-weight:600; text-decoration:none; }
 .hero { padding: 2rem 2.2rem 1.8rem; border-radius: 18px; background: linear-gradient(135deg,#f3f7ff 0%,#f9fbff 55%,#eef7f5 100%); border:1px solid #e4ebf5; margin-bottom:2rem; }
 .hero h1 { margin:0 0 .6rem; color:var(--ink); font-size:2.1rem; letter-spacing:-.02em; }
 .hero .tagline { color:var(--accent); font-size:1.1rem; font-weight:600; margin:.2rem 0 1rem; }
@@ -29,6 +31,8 @@ redirect_from:
 .cta { background:var(--soft); border-radius:12px; padding:1rem 1.2rem; margin-top:1.8rem; }
 @media (max-width:650px) { .hero { padding:1.3rem; } .hero h1 { font-size:1.65rem; } }
 </style>
+
+<div class="lang-switch"><a href="/">EN</a> <span>|</span> <a href="/zh/">&#20013;&#25991;</a></div>
 
 <div class="hero">
   <div class="section-kicker">Embodied intelligence · Robotics · Learning agents</div>
@@ -51,12 +55,17 @@ redirect_from:
   <article class="pub-card"><p class="pub-meta">EMNLP 2026 · Co-author</p><h3>TRUST: Uncertainty-Aligned Tool-Calling Decisions</h3><p>Reinforcement learning with uncertainty-aware rewards for more reliable decisions in multi-turn agent tool use.</p><p><a href="https://arxiv.org/abs/2606.06976">Paper</a> · <a href="https://github.com/yjzscode/TRUST">Code</a></p></article>
 </div>
 
-<div class="section-kicker">Experience</div>
-<h2 id="experience">Education &amp; experience</h2>
+<div class="section-kicker">Education</div>
+<h2 id="education">Education</h2>
 <div class="timeline">
   <p><strong>2024.09 - present</strong> - Master's student (third year), Paris Elite Institute of Engineering, Shanghai Jiao Tong University - preparing 2027 Fall applications</p>
   <p><strong>2020.09 - 2024.06</strong> - Bachelor's student, Paris Elite Institute of Engineering, Shanghai Jiao Tong University</p>
   <p><strong>Before 2020</strong> - Hangzhou Xuejun High School</p>
+</div>
+
+<div class="section-kicker">Internships</div>
+<h2 id="internships">Internships</h2>
+<div class="timeline">
   <p><strong>2026.03 - 2026.07</strong> - Research intern, Shanghai Artificial Intelligence Laboratory - reinforcement learning and whole-body control for humanoid robots</p>
   <p><strong>2024.06 - 2024.09</strong> - Research intern, Alibaba - visual navigation with ViNT and NoMaD</p>
 </div>
@@ -65,5 +74,3 @@ redirect_from:
 <h2 id="skills">Skills</h2>
 <p><strong>Tools:</strong> Python, PyTorch, JAX, C++, Java, MATLAB · <strong>Topics:</strong> VLA, VLN, agents, world models, reinforcement learning</p>
 <div class="cta"><strong>Let's connect.</strong> I am open to research collaborations and robotics opportunities. Reach me at <a href="mailto:wenyuan.xie2002@gmail.com">wenyuan.xie2002@gmail.com</a> or <a href="/files/Wenyuan_Xie_CV.pdf">download my CV</a>.</div>
-
-
