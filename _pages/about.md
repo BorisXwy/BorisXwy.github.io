@@ -60,7 +60,7 @@ function setLang(lang, event) {
 <p>My research connects structured geometric representations with learning-based agents, so they can adapt from experience and execute long-horizon tasks robustly.</p>
 <div class="pub-grid">
   <article class="pub-card"><p class="pub-meta">RSS 2026 · First author</p><h3>MVP-Nav: Multi-layer Value Map Planner Navigator</h3><p>A multi-layer value-map planner that combines VGGT, Grounded-SAM and vision-language models for robust 3D navigation.</p><p><a href="https://arxiv.org/abs/2606.31919">Paper</a></p></article>
-  <article class="pub-card"><p class="pub-meta">ICRA 2027 · Under review · Co-first author</p><h3>Navi-Agent: Unlocalized Monocular Navigation Agent</h3><p>A coordinate-free visual anchor graph for place recognition, progress verification, and recovery in continuous environments.</p><p><a href="https://arxiv.org/abs/2609.20388">Paper</a></p></article>
+  <article class="pub-card"><p class="pub-meta">Under review · First author</p><h3>Navi-Agent: Unlocalized Monocular Navigation Agent</h3><p>A coordinate-free visual anchor graph for place recognition, progress verification, and recovery in continuous environments.</p><p><a href="https://arxiv.org/abs/2609.20388">Paper</a></p></article>
   <article class="pub-card"><p class="pub-meta">ECCV 2026</p><h3>RelAfford6D: Relational 6D Affordance Graphs</h3><p>Language-grounded relational affordances become kinematic constraints and closed-loop SE(3) trajectories for articulated-object manipulation.</p><p><a href="https://arxiv.org/abs/2606.27036">Paper</a></p></article>
   <article class="pub-card"><p class="pub-meta">CVPR 2026</p><h3>Dejavu: Towards Experience Feedback Learning</h3><p>An experience feedback network augments a frozen VLA policy with retrieved trajectories, enabling post-deployment learning without rewriting the base model.</p><p><a href="https://arxiv.org/abs/2510.10181">Paper</a> | <a href="https://dejavu2025.github.io/">Project</a></p></article>
   <article class="pub-card"><p class="pub-meta">ICML 2026</p><h3>Recovering Hidden Reward in Diffusion-Based Policies</h3><p>Learning reward signals hidden inside diffusion-policy behavior to improve reliable action generation.</p><p><a href="https://arxiv.org/abs/2605.00623">Paper</a></p></article>
@@ -78,53 +78,35 @@ function setLang(lang, event) {
 <div class="section-kicker">Internships</div>
 <h2 id="internships">Internships</h2>
 <div class="timeline">
-  <p><strong>2026.03 - 2026.07</strong> - Research intern, Agibot Robotics - reinforcement learning and whole-body control for humanoid robots</p>
-  <p><strong>2024.06 - 2024.09</strong> - Research intern, Alibaba - visual navigation with ViNT and NoMaD</p>
+  <p><strong>2026.03 - 2026.07</strong> - Research intern, Agibot Robotics - reinforcement learning post-training for long-horizon phone packaging and whole-body control for wheeled-legged robots</p>
+  <p><strong>2024.06 - 2024.09</strong> - Research intern, Alibaba - visual navigation fine-tuning; identified straight-motion data bias, added turning-data augmentation and a turn-misclassification penalty</p>
 </div>
 
 <div class="section-kicker">A few more things</div>
 <h2 id="skills">Skills</h2>
 <p><strong>Tools:</strong> Python, PyTorch, JAX, C++, Java, MATLAB · <strong>Topics:</strong> VLA, VLN, agents, world models, reinforcement learning</p>
-<div class="cta"><strong>Let's connect.</strong> I am open to research collaborations and robotics opportunities. Reach me at <a href="mailto:wenyuan.xie2002@gmail.com">wenyuan.xie2002@gmail.com</a> or <a href="/files/Wenyuan_Xie_CV.pdf">download my CV</a>.</div>
+<div class="cta"><strong>Let's connect.</strong> I am open to research collaborations and robotics opportunities. Reach me at <a href="mailto:wenyuan.xie2002@gmail.com">wenyuan.xie2002@gmail.com</a> or <a href="/files/Wenyuan_Xie_Academic_CV_EN.pdf">download my CV</a> / <a href="/files/Wenyuan_Xie_Resume_EN.pdf">resume</a>.</div>
 </div>
 <div id="lang-zh" class="lang-panel" hidden><div class="hero">
-  <div class="section-kicker">具身智能 · 机器人 · 学习型智能体</div>
+  <div class="section-kicker">具身智能 · 机器人 · 智能体学习</div>
   <h1>谢文远 <span style="font-weight:400;color:#607087">Wenyuan Xie</span></h1>
-  <div class="tagline">让智能体感知、推理，并在真实世界中行动。</div>
-  <p>我目前是上海交通大学巴黎卓越工程师学院硕士三年级学生，正在准备 2027 Fall 申请。我的研究关注视觉-语言-动作模型、具身导航、机器人操作，以及提升智能体可靠性的后训练方法。</p>
-  <p>我的本科和硕士阶段均就读于上海交通大学巴黎卓越工程师学院。研究之外，我喜欢健身，也乐于交流机器人与机器学习。</p>
-  <div class="pills"><span class="pill">VLA 与 VLN</span><span class="pill">机器人操作</span><span class="pill">强化学习</span><span class="pill">三维感知</span><span class="pill">智能体后训练</span></div>
+  <div class="tagline">让智能体感知、推理并在真实世界中行动。</div>
+  <p>我目前是上海交通大学巴黎卓越工程师学院电子信息硕士三年级学生，准备申请 2027 Fall。研究方向包括视觉语言动作模型、具身导航、机器人操作、世界模型和智能体后训练。</p>
+  <div class="pills"><span class="pill">VLA / VLN</span><span class="pill">机器人操作</span><span class="pill">强化学习</span><span class="pill">世界模型</span></div>
 </div>
-
-<div class="section-kicker">代表工作</div>
-<h2 id="publications">论文与项目</h2>
-<p>我的研究将结构化几何表示与学习型智能体结合，使系统能够从经验中适应，并更加稳健地完成长时序任务。</p>
+<div class="section-kicker">代表工作</div><h2 id="publications-zh">论文与项目</h2>
+<p>研究聚焦将视觉表征、物理几何和学习型智能体结合，使系统能够从经验中适应并完成长程任务。</p>
 <div class="pub-grid">
-  <article class="pub-card"><p class="pub-meta">RSS 2026 · 第一作者</p><h3>MVP-Nav: Multi-layer Value Map Planner Navigator</h3><p>结合 VGGT、Grounded-SAM 与视觉语言模型的多层价值地图规划器，用于稳健的三维导航。</p><p><a href="https://arxiv.org/abs/2606.31919">论文</a></p></article>
-  <article class="pub-card"><p class="pub-meta">ICRA 2027 · 审稿中 · 共同一作</p><h3>Navi-Agent: Unlocalized Monocular Navigation Agent</h3><p>基于视觉锚点图的无坐标单目导航智能体，用于地点确认、进度验证与路径恢复。</p><p><a href="https://arxiv.org/abs/2609.20388">论文</a></p></article>
-  <article class="pub-card"><p class="pub-meta">ECCV 2026</p><h3>RelAfford6D: Relational 6D Affordance Graphs</h3><p>将语言指令转化为关系式 6D 可供性图，并以运动学约束生成闭环操作轨迹。</p><p><a href="https://arxiv.org/abs/2606.27036">论文</a></p></article>
-  <article class="pub-card"><p class="pub-meta">CVPR 2026</p><h3>Dejavu: Towards Experience Feedback Learning</h3><p>通过经验反馈网络和执行记忆增强冻结的 VLA 策略，实现部署后的持续适应。</p><p><a href="https://arxiv.org/abs/2510.10181">论文</a> | <a href="https://dejavu2025.github.io/">项目主页</a></p></article>
-  <article class="pub-card"><p class="pub-meta">ICML 2026</p><h3>Recovering Hidden Reward in Diffusion-Based Policies</h3><p>从扩散策略的行为中恢复隐藏奖励，为可靠的动作生成提供学习信号。</p><p><a href="https://arxiv.org/abs/2605.00623">论文</a></p></article>
-  <article class="pub-card"><p class="pub-meta">EMNLP 2026 · 合作者</p><h3>TRUST: Uncertainty-Aligned Tool-Calling Decisions</h3><p>通过不确定性感知的奖励设计，提升多轮智能体工具调用决策的可靠性。</p><p><a href="https://arxiv.org/abs/2606.06976">论文</a> · <a href="https://github.com/yjzscode/TRUST">代码</a></p></article>
+  <article class="pub-card"><p class="pub-meta">RSS 2026 · 一作</p><h3>MVP-Nav: Multi-layer Value Map Planner Navigator</h3><p>结合 VGGT、Grounded-SAM 与 Multi-layer Value Map，解决纯视觉导航中语义目标与物理约束的结合问题。</p><p><a href="https://arxiv.org/abs/2606.31919">论文</a></p></article>
+  <article class="pub-card"><p class="pub-meta">在投 · 一作</p><h3>Navi-Agent: Unlocalized Monocular Navigation Agent</h3><p>通过 Visual Anchor Graph 解决无定位条件下导航系统的移动与位置认知问题。</p><p><a href="https://arxiv.org/abs/2609.20388">论文</a></p></article>
+  <article class="pub-card"><p class="pub-meta">ECCV 2026 · 三作</p><h3>RelAfford6D: Relational 6D Affordance Graphs</h3><p>利用关系式 6D 可供性图和约束轨迹生成实现关节物体操作。</p><p><a href="https://arxiv.org/abs/2606.27036">论文</a></p></article>
 </div>
-
-<div class="section-kicker">教育经历</div>
-<h2 id="education">教育经历</h2>
-<div class="timeline">
-  <p><strong>2024.09 - 至今</strong> - 上海交通大学巴黎卓越工程师学院，硕士三年级，准备 2027 Fall 申请</p>
-  <p><strong>2020.09 - 2024.06</strong> - 上海交通大学巴黎卓越工程师学院，本科</p>
-  <p><strong>2020 年以前</strong> - 杭州学军中学</p>
-</div>
-
-<div class="section-kicker">实习经历</div>
-<h2 id="internships">实习经历</h2>
-<div class="timeline">
-  <p><strong>2026.03 - 2026.07</strong> - 智元机器人，研究实习生：强化学习与人形机器人全身控制</p>
-  <p><strong>2024.06 - 2024.09</strong> - 阿里云，算法实习生：基于 ViNT 与 NoMaD 的视觉导航</p>
-</div>
-
-<div class="section-kicker">技能</div>
-<h2 id="skills">技能</h2>
-<p><strong>工具：</strong>Python、PyTorch、JAX、C++、Java、MATLAB · <strong>方向：</strong>VLA、VLN、智能体、世界模型、强化学习</p>
-<div class="cta"><strong>欢迎交流。</strong> 如有研究合作或机器人方向机会，欢迎通过 <a href="mailto:wenyuan.xie2002@gmail.com">wenyuan.xie2002@gmail.com</a> 联系我，或<a href="/files/Wenyuan_Xie_CV.pdf">下载我的 CV</a>。</div>
+<div class="section-kicker">教育经历</div><h2>教育经历</h2><div class="timeline">
+<p><strong>2024.09 - 至今</strong> - 上海交通大学巴黎卓越工程师学院，电子信息硕士</p>
+<p><strong>2020.09 - 2024.06</strong> - 上海交通大学巴黎卓越工程师学院，法语专业，辅修信息工程（IE）</p></div>
+<div class="section-kicker">实习经历</div><h2>实习经历</h2><div class="timeline">
+<p><strong>2026.03 - 2026.07</strong> - 智元机器人：手机包装任务强化学习后训练与轮足机器人全身控制</p>
+<p><strong>2024.06 - 2024.09</strong> - 阿里云：视觉导航微调，解决训练数据直行偏置问题</p></div>
+<div class="section-kicker">技能</div><h2>技能</h2><p><strong>编程：</strong>Python、PyTorch、JAX、C++、Java、MATLAB · <strong>方向：</strong>VLA、VLN、智能体、世界模型、真机 RL</p>
+<div class="cta"><strong>欢迎交流。</strong> 如有研究合作或机器人方向机会，欢迎通过 <a href="mailto:wenyuan.xie2002@gmail.com">wenyuan.xie2002@gmail.com</a> 联系我，或<a href="/files/Wenyuan_Xie_Academic_CV_CN.pdf">下载我的 CV</a> / <a href="/files/Wenyuan_Xie_Resume_CN.pdf">中文简历</a>。</div>
 </div>
