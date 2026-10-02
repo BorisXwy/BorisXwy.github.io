@@ -52,7 +52,7 @@ function setLang(lang, event) {
   <div class="tagline">Building agents that can perceive, reason, and act in the physical world.</div>
   <p>I am a third-year master's student at <a href="https://www.sjtu.edu.cn/">Shanghai Jiao Tong University</a>'s <strong>Paris Elite Institute of Engineering</strong>, preparing applications for 2027 Fall. My research studies vision-language-action models, embodied navigation, robot manipulation, and post-training methods that make intelligent agents more reliable.</p>
   <p>I completed both my bachelor's and master's studies at the Paris Elite Institute of Engineering, and I enjoy fitness and thoughtful conversations about robots and learning.</p>
-  <div class="pills"><span class="pill">VLA &amp; VLN</span><span class="pill">Robot manipulation</span><span class="pill">Reinforcement learning</span><span class="pill">3D perception</span><span class="pill">Agentic post-training</span></div>
+  <div class="pills"><span class="pill">Embodied Policies and Agent Systems</span><span class="pill">World Models and Vision Foundation Models</span><span class="pill">Reinforcement Learning Algorithms and Systems</span></div>
 </div>
 
 <div class="section-kicker">Selected work</div>
@@ -92,7 +92,7 @@ function setLang(lang, event) {
   <h1>谢文远 <span style="font-weight:400;color:#607087">Wenyuan Xie</span></h1>
   <div class="tagline">让智能体感知、推理并在真实世界中行动。</div>
   <p>我目前是上海交通大学巴黎卓越工程师学院电子信息硕士三年级学生，准备申请 2027 Fall。研究方向包括视觉语言动作模型、具身导航、机器人操作、世界模型和智能体后训练。</p>
-  <div class="pills"><span class="pill">VLA / VLN</span><span class="pill">机器人操作</span><span class="pill">强化学习</span><span class="pill">世界模型</span></div>
+  <div class="pills"><span class="pill">具身策略与智能体系统</span><span class="pill">世界模型与视觉基础模型</span><span class="pill">强化学习算法与系统</span></div>
 </div>
 <div class="section-kicker">代表工作</div><h2 id="publications-zh">论文与项目</h2>
 <p>研究聚焦将视觉表征、物理几何和学习型智能体结合，使系统能够从经验中适应并完成长程任务。</p>
