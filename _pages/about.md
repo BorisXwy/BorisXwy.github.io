@@ -79,7 +79,8 @@ function setLang(lang, event) {
 <h2 id="internships">Internships</h2>
 <div class="timeline">
   <p><strong>2026.03 - 2026.07</strong> - Research intern, Agibot Robotics - reinforcement learning post-training for long-horizon phone packaging and whole-body control for wheeled-legged robots</p>
-  <p><strong>2024.06 - 2024.09</strong> - Research intern, Alibaba - product carbon-footprint certification for the Hangzhou Asian Games mascot plush toy, the Games’ first zero-carbon licensed product; used life-cycle assessment and Alibaba Cloud Energy Expert for carbon accounting, offsetting and digital certification, and also supported the China Academy of Art low-carbon platform</p>
+  <p><strong>2024.06 - 2024.09</strong> - Research intern, Alibaba - visual navigation fine-tuning with ViNT and NoMaD; addressed straight-motion bias with turning-data augmentation and a turn-misclassification penalty</p>
+  <p><strong>2022.06 - 2022.08</strong> - Product intern, Alibaba Cloud - product carbon-footprint certification for the Hangzhou Asian Games mascot plush toy, the Games’ first zero-carbon licensed product; supported the China Academy of Art low-carbon platform</p>
 </div>
 
 <div class="section-kicker">A few more things</div>
@@ -106,7 +107,8 @@ function setLang(lang, event) {
 <p><strong>2020.09 - 2024.06</strong> - 上海交通大学巴黎卓越工程师学院，法语专业，辅修信息工程（IE）</p></div>
 <div class="section-kicker">实习经历</div><h2>实习经历</h2><div class="timeline">
 <p><strong>2026.03 - 2026.07</strong> - 智元机器人：手机包装任务强化学习后训练与轮足机器人全身控制</p>
-<p><strong>2024.06 - 2024.09</strong> - 阿里云：杭州亚运会首款零碳特许商品吉祥物的产品碳足迹认证，完成生命周期碳核算、碳中和与数字化认证，并辅助中国美术学院低碳平台</p></div>
+<p><strong>2024.06 - 2024.09</strong> - 阿里云：基于 ViNT、NoMaD 的视觉导航微调，解决训练数据直行偏置问题</p>
+<p><strong>2022.06 - 2022.08</strong> - 阿里云产品实习：负责杭州亚运会首款零碳特许商品吉祥物的产品碳足迹认证，并辅助中国美术学院低碳平台</p></div>
 <div class="section-kicker">技能</div><h2>技能</h2><p><strong>编程：</strong>Python、PyTorch、JAX、C++、Java、MATLAB · <strong>方向：</strong>VLA、VLN、智能体、世界模型、真机 RL</p>
 <div class="cta"><strong>欢迎交流。</strong> 如有研究合作或机器人方向机会，欢迎通过 <a href="mailto:wenyuan.xie2002@gmail.com">wenyuan.xie2002@gmail.com</a> 联系我，或<a href="/files/Wenyuan_Xie_Academic_CV_CN.pdf">下载我的 CV</a> / <a href="/files/Wenyuan_Xie_Resume_CN.pdf">中文简历</a>。</div>
 </div>
