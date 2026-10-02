@@ -79,7 +79,7 @@ function setLang(lang, event) {
 <h2 id="internships">Internships</h2>
 <div class="timeline">
   <p><strong>2026.03 - 2026.07</strong> - Research intern, Agibot Robotics - reinforcement learning post-training for long-horizon phone packaging and whole-body control for wheeled-legged robots</p>
-  <p><strong>2024.06 - 2024.09</strong> - Research intern, Alibaba - visual navigation fine-tuning with ViNT and NoMaD; addressed straight-motion bias with turning-data augmentation and a turn-misclassification penalty</p>
+  <p><strong>2024.06 - 2024.09</strong> - Research intern, Alibaba Cloud - visual navigation fine-tuning with ViNT and NoMaD; addressed straight-motion bias with turning-data augmentation and a turn-misclassification penalty</p>
   <p><strong>2022.06 - 2022.08</strong> - Product intern, Alibaba Cloud - product carbon-footprint certification for the Hangzhou Asian Games mascot plush toy, the Games’ first zero-carbon licensed product; supported the China Academy of Art low-carbon platform</p>
 </div>
 
